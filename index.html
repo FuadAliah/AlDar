@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="node_modules/feather-icons/dist/feather.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Aldar</title>
+</head>
+
+<body class="body">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white my-navbar border-bottom">
+        <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav ml-auto">
+                <div class="my-menu d-md-block d-lg-none">
+                    <div class="user-info">
+                        <img src="./images/avatar.png" class="profile-img d-flex d-md-none" alt="">
+                        <a class="nav-link" href="#"><span class="font-weight-bolder">Hassan Hudaib</span>
+                        </a>
+                    </div>
+                    <a class="nav-link my-link active" href="#"><i data-feather="home"></i><span>Dashboard</span></a>
+                    <a class="nav-link my-link" href="#"><i data-feather="file-text"></i><span>Entity Listing</span></a>
+                    <a class="nav-link my-link" href="#"><i data-feather="alert-octagon"></i>
+                        <span>Risk Explorer</span>
+                    </a>
+                    <a class="nav-link my-link" href="#"><i data-feather="bell"></i><span>Notifications</span>
+                        <span class="counter">172</span>
+                    </a>
+                    <a class="nav-link my-link" href="#"><i data-feather="monitor"></i>
+                        <span>Compliance Monitoring</span></a>
+                    <a class="nav-link my-link" href="#"><i data-feather="globe"></i><span>Crop. Governance</span></a>
+                    <a class="nav-link my-link" href="#"><i data-feather="award"></i><span>Internal Audit</span></a>
+                    <a class="nav-link my-link" href="#"><i data-feather="calendar"></i><span>Event Listing</span></a>
+                    <a class="nav-link my-link" href="#"><i data-feather="pie-chart"></i><span>Report</span></a>
+                </div>
+
+                <div class="my-links d-flex">
+                    <a class="nav-link" href="#" title="Search"><i data-feather="search"></i></a>
+                    <div class="lang d-flex">
+                        <a class="nav-link pr-0" href="#" title="Arabic"><img src="./images/Lang_Ar.png"></a>
+                        <a class="nav-link pl-0" href="#" title="English"><img src="./images/Lang_En.png"></a>
+                    </div>
+                    <a class="nav-link" href="#" title="Reference and Administrations"><i
+                            data-feather="settings"></i></a>
+                    <a class="nav-link" href="#" title="Background Process"><i data-feather="refresh-cw"></i></a>
+                    <a class="nav-link" href="#"><i data-feather="help-circle" class="mr-1"></i>
+                        <span>Help</span>
+                    </a>
+                    <a class="nav-link d-none d-md-block" href="#"><span class="font-weight-bolder">Hassan Hudaib</span>
+                    </a>
+                </div>
+                <button type="button" class="btn my-primary btn-primary">
+                    <i data-feather="log-out"></i><span class="ml-2">Logout</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white d-none d-lg-flex top-menu">
+        <div class="collapse navbar-collapse">
+            <div class="navbar-nav">
+                <a class="nav-link my-link active" href="#"><i data-feather="home"></i><span>Dashboard</span></a>
+                <a class="nav-link my-link" href="#"><i data-feather="file-text"></i><span>Entity Listing</span></a>
+                <a class="nav-link my-link" href="#"><i data-feather="alert-octagon"></i><span>Risk Explorer</span></a>
+                <a class="nav-link my-link" href="#"><i data-feather="bell"></i><span>Notifications</span><span
+                        class="counter">172</span></a>
+                <a class="nav-link my-link" href="#"><i data-feather="monitor"></i><span>Compliance
+                        Monitoring</span></a>
+                <a class="nav-link my-link" href="#"><i data-feather="globe"></i><span>Crop. Governance</span></a>
+                <a class="nav-link my-link" href="#"><i data-feather="award"></i><span>Internal Audit</span></a>
+                <a class="nav-link my-link" href="#"><i data-feather="calendar"></i><span>Event Listing</span></a>
+                <a class="nav-link my-link" href="#"><i data-feather="pie-chart"></i><span>Report</span></a>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <script>
+        feather.replace()
+    </script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
